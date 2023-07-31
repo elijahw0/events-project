@@ -42,17 +42,23 @@ random.onclick = function(){
     let r = Math.floor(Math.random() *5);
     if(r == 0){
         colorSelected.style.backgroundColor = "aqua";
+        colorSelected.innerHTML = "aqua";
     }
     else if (r == 1){
         colorSelected.style.backgroundColor = "teal";
+        colorSelected.innerHTML = "teal";
     }
     else if (r == 2){
         colorSelected.style.backgroundColor = "pink";
+        colorSelected.innerHTML = "pink";
     }
     else if (r == 3){
         colorSelected.style.backgroundColor = "purple";
+        colorSelected.innerHTML = "purple";
     }
     else{
         colorSelected.style.backgroundColor = "white";
+        colorSelected.innerHTML = "colorless";
+
     }
 }
